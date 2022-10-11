@@ -1,0 +1,11 @@
+pip install trimesh
+import os
+import glob
+import trimesh
+import numpy as np
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+from matplotlib import pyplot as plt
+
+tf.random.set_seed(1234)
